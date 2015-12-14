@@ -1119,6 +1119,10 @@ label {
 #topbar a{
     color:#fff;
 }
+/* logout (boton de la cabezera en el lado derecho)*/
+.lagout{
+float: right;
+}
 
 .btn{
     border: none;
