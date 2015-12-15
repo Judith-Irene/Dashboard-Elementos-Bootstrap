@@ -373,7 +373,7 @@ PANELS CONFIGURATIONS
 /*Green Panel*/
 .green-panel {
     text-align: center;
-    background: #68dff0;
+    background: #68dff0;/*celeste*/
 }
 .green-panel .green-header {
     background: #43b1a9;
@@ -417,7 +417,7 @@ PANELS CONFIGURATIONS
 }
 
 .white-panel i {
-    color: #68dff0;
+    color: #68dff0; /*celeste*/
     padding-right: 4px;
     font-size: 14px;
 }
@@ -564,7 +564,7 @@ PANELS CONFIGURATIONS
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 16px;
-    color: #c2c2c2;
+    color: #c2c2c2; /*gris oscuro*/
     font-size: 15px;
     font-weight: 700;
 }
@@ -572,7 +572,7 @@ PANELS CONFIGURATIONS
 
 /*Twitter Panel*/
 .twitter-panel {
-    background: #4fc1e9;
+    background: #4fc1e9; /*azul*/
     text-align: center;
 }
 .twitter-panel i {
@@ -606,7 +606,7 @@ PANELS CONFIGURATIONS
 
 /* Product Panel */
 .product-panel {
-    background: #dadad2;
+    background: #dadad2; /*gris*/
     text-align: center;
     padding-top: 50px;
     height: 100%;
@@ -700,7 +700,7 @@ PANELS CONFIGURATIONS
     left: 35px;
 }
 .badge-popular {
-    background: #3498db;
+    background: #3498db; /*azul*/
     width: 70px;
     height: 70px;
     line-height: 70px;

@@ -1,149 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="Dashboard">
-  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""><!--lo que va entre content es el texto que aparece en la busqueda de google-->
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-  <title>Adventure time: Dashboard</title>
+    <title>Adventure time: Dashboard</title>
 
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/font-awesome.css" rel="stylesheet"/>
-  <link href="css/adventure-time-theme.css" rel="stylesheet">
-  <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/icomoon/style.css" rel="stylesheet"/>
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+    <link href="css/estilos.css"  rel="stylesheet">
 
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<body>
-<div class="header" style="padding:0px">
-<div id="container">
-  <div id="topbar">
-    <a href="#menu" class="fa fa-bars">
-      <span class="hidden-xs">ADVENTURE TIME: DASHBOARD</span>
-      <span class="hidden-lg visible-xs">ADV.TIME</span>
-    </a>
-
-  </div>
-  <div id="sidebar">
-    <ul class="sidebar-menu">
-    <img src="img/profile_avatar.png" style="width:40%">  
-      <h5>Bonnibel Bubblegum</h5>
+  <body>
+    <div id="container" >
+        <div class="header black-bg"> <!--HEADER-->
+            <div class="sidebar-toggle-box">
+                <div class="fa fa-bars tooltips" data-original-title="Toggle Navigation" data-placement="right" ></div>
+            </div>      
+            <a class="logo" href="dashboard.html">
+              <div class="hidden-xs">ADVENTURE TIME: DASHBOARD</div>
+              <div class="visible-xs">ADV.TIME</div>
+            </a>
+            <div class="top-menu">
+              <ul class="nav pull-right top-menu">
+                <li><a class="logout" href="login.html">Logout</a></li>
+              </ul>
+            </div>
+        </div> <!--div del header final -->
         
-          <li><a href=""><i class="fa fa-dashboard"></i> Dashboard</a></li>
-          <li><a href=""><i class="fa fa-desktop"></i> Buttons</a></li>
-          <li><a href=""><i class="fa fa-desktop"></i> Progress Bar</a></li>
-          <li><a href=""><i class="fa fa-cogs"></i> Forms</a></li>
-          <li><a href=""><i class="fa fa-th"></i> Data Tables</a></li>
-        </ul>
-  </div>
-</div>
-</div>
-
-
-  <div id="main-content" style="padding:top">
-    <div class="wrapper">
-      <div class="pt-25 main-chart"></div>
-    <div class="row">
-      <div class="pt-25 main-chart col-sm-9">
-
-          <div class="row">
-            
-                <div class="col-md-ofset-1 box0 col-md-2 col-sm-12">
-                  <div class="box0">
-                  <div class="box1">
-                  <a href=""><span><i class="fa fa-heart"></i></span><h3>933</h3></a>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita, repellendus est nemo cum quibusdam optio.</p>
-                  </div>
+        <div class="panel-izquierdo"> <!--inicio de pane izquierdo -->
+            <div id="sidebar"  class="nav-collapse ">
+              <ul class="sidebar-menu">
+                <div class="text-center"> <!--avatar -->
+                  <a href="dashboard.html"> <img class="img-circle" width="70" src="img/profile_avatar.png"></a>
                 </div>
-                <div class="col-sm-2">
-                  <div class="box0">
-                  <div class="box1">
-                  <a href=""><span><i class="fa fa-cloud"></i></span><h3>+48</h3></a>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita, repellendus est nemo cum quibusdam optio.</p>
-                  </div>
-                </div>
-                <div class="col-sm-2">
-                  <div class="box0">
-                  <div class="box1">
-                  <a href=""><span><i class="fa fa-envelope"></i></span><h3>933</h3></a>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita, repellendus est nemo cum quibusdam optio.</p>
-                  </div>
-                </div>
-                <div class="col-sm-2">
-                  <div class="box0">
-                  <div class="box1">
-                  <a href=""><span><i class="fa fa-slack"></i></span><h3>+10</h3></a>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita, repellendus est nemo cum quibusdam optio.</p>
-                  </div>
-                </div>
-                <div class="col-sm-2">
-                  <div class="box0">
-                  <div class="box1">
-                  <a href=""><span><i class="fa fa-database"></i></span><h3>933</h3></a>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita, repellendus est nemo cum quibusdam optio.</p>
-                  </div>
-                </div>     
-          </div>
-        </div>
-
-      <div class="col-sm-3 ds">
-          <h3>CANDY KINGDOM NEWS</h3>
-        <div class="desc">
-          <div class="thumb">
-            <span class="badge bg">
-              <i class="fa fa-clock-o"></i></span>                                              
-              <p><muted>2 MINUTES AGO</muted><br>
-              <a href="">James Brow</a> suscribed to your newsletter.</p>
-          </div>
-        </div> 
-      </div> 
-      </div> 
-
-    </div>
-
-
-
-
-
-              
+                <h5 class="text-center">Bonnibel Bubblegum</h5>
+                <li class="sub-menu"><a class="active" href="dashboard.html"> <i class="fa fa-dashboard"></i><span>Dashboard</span></a>
+                </li>
+                <li class="sub-menu"><a href="buttons.html" ><i class="fa fa-desktop"></i><span>Buttons</span></a>
+                </li>
+                <li class="sub-menu"><a href="progress.html" ><i class="fa fa-desktop"></i><span>Progress Bars</span></a>
+                </li>            
+                <li class="sub-menu"><a href="form_component.html" ><i class="fa fa-cogs"></i><span>Forms</span></a>
+                </li>
+                <li class="sub-menu"><a href="basic_tables.html" ><i class="fa fa-th"></i><span>Data Tables</span></a>
+                </li>            
+                <li class="sub-menu"><a href="gallery.html" ><i class="fa fa-tasks"></i><span>Gallery</span></a>
+                </li>
+                <li class="sub-menu"><a href="login.html" ><i class="fa fa-book"></i><span>Login Page</span></a>
+                </li> 
+              </ul>
             </div>
-          </div>
-            <div id="container">
-              <div class="row">
-                <div class="col-sm-5">
-                  <h2>Mis favoritos</h2>
-                </div>
-                <div class="col-sm-4"></div>
-              </div>
-            </div>
-          </div>
-      </div>
+        </div> <!--div del inicio del panel izquierdo -->
 
-      <div class="col-sm-3">
-        Candy
-      </div>
-    </div>
-  </div>
+        <div id="main-content">
+              <div class=""><!--envoltura-->
+                  <div class="row">
+                      <div class="pt-25 main-chart col-md-9  ">
+                         <div class="row"><!--contiene los iconos-->
+                              <div class="col-md-offset-1 box0 col-md-2 col-sm-12 ">
+                                <div class="box1">
+                                  <span class="fa fa-heart"></span>
+                                  <h3>933</h3>
+                                </div>
+                                <p>933 ipsum dolor sit amet, consect.</p>
+                              </div>
+                              <div class="box0 col-md-2 col-sm-12 ">
+                                <div class="box1">
+                                  <span class="fa fa-cloud"></span>
+                                  <h3>+48</h3>
+                                </div>
+                                <p>48 Lorem ipsum dolor sit, consect.</p>
+                              </div>
+                              <div class="box0 col-md-2 col-sm-12 ">
+                                <div class="box1">
+                                  <span class="fa fa-envelope"></span>
+                                  <h3>23</h3>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consect.</p>
+                              </div>
+                              <div class="box0 col-md-2 col-sm-12 ">
+                                <div class="box1">
+                                  <span class="fa fa-slack"></span>
+                                  <h3>+10</h3>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consect.</p>
+                              </div>
+                              <div class="box0 col-md-2 col-sm-12 ">
+                                <div class="box1">
+                                  <span class="fa fa-database"></span>
+                                  <h3>OK!</h3>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consect.</p>
+                              </div>
+                         </div>
+                          <!--final del row de los iconos-->
+                          
+                          <!--parte de FAVORITOS-->
+                          <div class="favoritos">
+                              
+                                 <h1>Mis Favoritos</h1>
+                                  <div class="row">
+                                      <div class="col-md-7">
+                                         <div class="video">
+                                          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/w-e3KUcP4E0" frameborder="0" allowfullscreen></iframe>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-5 main-video">
+                                          <h4 >Adventures time Season 3 Episode 19</h4>
+                                          <p>A human boy named Finn and adoptive brother and best friend Jake the Dog, protect the citizens of the Land of Ooo from foes of various shapes and sizes.</p>
+                                          <div class="botones">
+                                              <a href=""><i class="fa fa-plus"></i><span> Agregar</span></a>
+                                              <a href=""><i class="fa fa-share-alt"></i><span> Compartir</span></a>
+                                              <a href=""><i class="fa fa-ellipsis-h"></i><span> Más</span></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <span class="divider"></span> <!--VIDEOS EN MINIATURA-->
+                                  <div class="showback">
+                                    <h4>Videos populares</h4>
+                                     <div class="row">
+                                         <div class="col-md-4 col-sm-4">
+                                           <div class="item-video">
+                                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8n3Hc2RbdyM" frameborder="0" allowfullscreen></iframe>
+                                             </div>  
+                                         </div>
+                                         <div class="col-md-4 col-sm-4">
+                                             <div class="item-video">
+                                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gBL640KFgVI" frameborder="0" allowfullscreen></iframe>
+                                             </div>
+                                         </div>
+                                         <div class="col-md-4 col-sm-4">
+                                             <div class="video">
+                                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hyAHVJHKnIY" frameborder="0" allowfullscreen></iframe>
+                                             </div>
+                                         </div>
+                                     </div> 
+                                  </div>
+                                 
+                                 <div class="showback">
+                                    <h4>Temporada 1</h4>
+                                     <div class="row">
+                                         <div class="col-md-4 col-sm-4">
+                                             <div class="item-video">
+                                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-nVmprAaF0U" frameborder="0" allowfullscreen></iframe>
+                                             </div>
+                                         </div>
+                                         <div class="col-md-4 col-sm-4">
+                                             <div class="item-video">
+                                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ITOs7PSr20I" frameborder="0" allowfullscreen></iframe>
+                                             </div>
+                                         </div>
+                                         <div class="col-md-4 col-sm-4">
+                                             <div class="item-video">
+                                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qxjyRmdMJug" frameborder="0" allowfullscreen></iframe>
+                                             </div>
+                                         </div>
+                                     </div> 
+                                 </div>         
+                             
+                          </div><!--final de mis FAVORITOS-->
+                      </div>  
+                      <!--PANEL DERECHO-->
+                      <div class="col-md-3 ds">
+                          <h3>CANDY KINGDOM NEWS</h3>
+                          
+                          <div class="desc">
+                             <div class="thumb ">
+                                  <span class="badge bg-theme ">
+                                      <i class="fa fa-clock-o"></i>
+                                  </span>
+                             </div>
 
+                              <div class="details">
+                                <p><muted>2 MINUTES AGO</muted><br>                           
+                                   <a href="">James Brown</a> subscribed to your newsletter.
+                                </p>
+                             </div>
+                          </div>
+                          
+                          <div class="desc">
+                             <div class="thumb ">
+                                  <span class="badge bg-theme ">
+                                      <i class="fa fa-clock-o"></i>
+                                  </span>
+                             </div>
 
+                              <div class="details">
+                                <p><muted>3 HOURS AGO</muted><br>                           
+                                   <a href="">Diana Kennedy</a> purchased a year suscription.
+                                </p>
+                             </div>
+                          </div>
+                          
+                          <div class="desc">
+                             <div class="thumb ">
+                                  <span class="badge bg-theme ">
+                                      <i class="fa fa-clock-o"></i>
+                                  </span>
+                             </div>
 
-<!--Inserta tu codigo aqui-->
+                              <div class="details">
+                                <p><muted>7 HOURS AGO</muted><br>                           
+                                   <a href="">Brandon Page</a>purchased a year suscription.
+                                </p>
+                             </div>
+                          </div>
+                          
+                            <div class="desc">
+                             <div class="thumb ">
+                                  <span class="badge bg-theme ">
+                                      <i class="fa fa-clock-o"></i>
+                                  </span>
+                             </div>
 
-<!-- js placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/common-scripts.js"></script>
-</body>
+                              <div class="details">
+                                <p><muted>11 HOURS AGO</muted><br>                           
+                                   <a href="">Mark Twain</a> comented your post
+                                </p>
+                             </div>
+                          </div>
+                          
+                          <div class="desc">
+                             <div class="thumb ">
+                                  <span class="badge bg-theme ">
+                                      <i class="fa fa-clock-o"></i>
+                                  </span>
+                             </div>
+
+                              <div class="details">
+                                <p><muted>18 HOURS AGO</muted><br>                           
+                                   <a href="">Daniel Pratt</a> purchased a wallet in your store.
+                                </p>
+                             </div>
+                          </div>
+
+                          <h3>CANDY PEOPLE</h3>
+
+                          <div class="desc">
+                              <div class="thumb">
+                                  <img  class="img-circle img-responsive" src="img/friends/cinamon-bun.jpg" alt="">
+                              </div>
+                              <div class="details">
+                                 <p> <a href="">CINAMON BUN</a><br><muted>available</muted></p>
+                              </div>
+                          </div>
+                         
+                         <div class="desc">
+                              <div class="thumb">
+                                  <img  class="img-circle img-responsive" src="img/friends/finn.jpg" alt="">
+                              </div>
+                              <div class="details"><p><a href="">FIN THE HUMAN</a><br><muted>I am busy</muted></p>
+                              </div>
+                          </div>
+
+                           <div class="desc">
+                              <div class="thumb">
+                                  <img  class="img-circle img-responsive" src="img/friends/marceline.jpg" alt="">
+                              </div>
+                              <div class="details"><p><a href="">MARCELINE NEWMAN</a><br><muted>available</muted></p>
+                              </div>
+                          </div>
+                          
+                          <div class="desc">
+                              <div class="thumb">
+                                  <img  class="img-circle img-responsive" src="img/friends/jake.jpg" alt="">
+                              </div>
+                              <div class="details"><p><a href="">JAKE THE DOG</a><br><muted>available</muted></p>
+                              </div>
+                          </div>
+                          
+                          <div class="desc">
+                              <div class="thumb">
+                                  <img  class="img-circle img-responsive" src="img/friends/rainicorn.gif" alt="">
+                              </div>
+                              <div class="details"><p><a href="">PRINCESS RAINICORN</a><br><muted>available</muted></p>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+              </div> <!-- div del contenido principal -->
+        </div><!-- div final del contenido principal-->
+      
+    </div><!--DIV CONTAINER-->
+      
+    <!-- js placed at the end of the document so the pages load faster -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
 </html>
