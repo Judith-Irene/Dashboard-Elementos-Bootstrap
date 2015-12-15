@@ -316,10 +316,10 @@ PANELS CONFIGURATIONS
 
 .grey-panel {
     text-align: center;
-    background: #dfdfe1;
+    background: #dfdfe1;/*platino*/
 }
 .grey-panel .grey-header {
-    background: #ccd1d9;
+    background: #ccd1d9;/*platino*/
     padding: 3px;
     margin-bottom: 15px;
 }
@@ -338,7 +338,7 @@ PANELS CONFIGURATIONS
 }
 .donut-chart h2 {
     font-weight: 900;
-    color: #FF6B6B;
+    color: #FF6B6B; /*DANGER*/
     font-size: 38px;
 }
 
@@ -346,7 +346,7 @@ PANELS CONFIGURATIONS
 
 .darkblue-panel {
     text-align: center;
-    background: #444c57;
+    background: #f2f2f2;
 }
 .darkblue-panel .darkblue-header {
     background: transparent;
@@ -376,7 +376,7 @@ PANELS CONFIGURATIONS
     background: #68dff0;/*celeste*/
 }
 .green-panel .green-header {
-    background: #43b1a9;
+    background: #43b1a9;/*c*/
     padding: 3px;
     margin-bottom: 15px;
 }
@@ -397,7 +397,7 @@ PANELS CONFIGURATIONS
 .white-panel {
     text-align: center;
     background: #ffffff;
-    color: #ccd1d9;
+    color: #ccd1d9; /*gris*/
 }
 
 .white-panel p { 
@@ -409,7 +409,7 @@ PANELS CONFIGURATIONS
     background: #f4f4f4;
     padding: 3px;
     margin-bottom: 15px;
-    color: #c6c6c6;
+    color: #f4f4f4;
 }
 .white-panel .small {
     font-size: 10px;
@@ -430,14 +430,14 @@ PANELS CONFIGURATIONS
   height: 250px;
 }
 .stock .stock-chart {
-  background: #00c5de;
+  background: #00c5de;/*celeste*/
 }
 .stock .stock-chart #chart {
     height: 10.7em;
     background: url(http://i.imgbox.com/abmuNQx2) center bottom no-repeat; 
 }    
 .stock .current-price {
-  background: #1d2122;
+  background: #1d2122;/*negro*/
   padding: 10px; 
 }
 .stock .current-price .info abbr {
@@ -451,7 +451,7 @@ PANELS CONFIGURATIONS
     text-align: right; 
 }
 .stock .changes .up {
-    color: #4fd98b
+    color: #4fd98b; /*verde*/
 }
 .stock .current-price .changes .value {
       font-size: 1.8em;
@@ -504,10 +504,10 @@ PANELS CONFIGURATIONS
 
 /* Weather 2 */
 .weather-2 {
-    background: #e9f0f4;
+    background: #e9f0f4;/*bl*/
 }
 .weather-2 .weather-2-header {
-    background: #54bae6;
+    background: #54bae6;/*az*/
     padding-top: 5px;
     margin-bottom: 5px;
 }
@@ -614,7 +614,7 @@ PANELS CONFIGURATIONS
 
 /* Product Panel 2*/
 .product-panel-2 {
-    background: #dadad2;
+    background: #dadad2;/*gris*/
     text-align: center;
 }
 .product-panel-2 .badge {
@@ -623,7 +623,7 @@ PANELS CONFIGURATIONS
     left: 35px;
 }
 .badge-hot {
-    background: #ed5565;
+    background: #ed5565;/*ROJO*/
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -700,7 +700,7 @@ PANELS CONFIGURATIONS
     left: 35px;
 }
 .badge-popular {
-    background: #3498db; /*azul*/
+    background: #3498db; /*azul!!!!!!*/
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -1118,19 +1118,4 @@ label {
 }
 #topbar a{
     color:#fff;
-}
-/* logout (boton de la cabezera en el lado derecho)*/
-.lagout{
-float: right;
-}
-
-.btn{
-    border: none;
-    background:#4fc1e9;
-    float: right;
-    margin:7px;
-    margin: 15px;
-}
-* .row{
-    margin: 0px;
 }
